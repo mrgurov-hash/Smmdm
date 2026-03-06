@@ -1,3 +1,5 @@
+import image_e6c445e8533184e80595c45878ed05a3b5716af1 from 'figma:asset/e6c445e8533184e80595c45878ed05a3b5716af1.png'
+import image_f982484599ed1043231bee3b3abe67f11090d606 from 'figma:asset/f982484599ed1043231bee3b3abe67f11090d606.png'
 import { useState } from "react";
 import { Button, Card, Badge, IconLabel } from "@/app/components/ui";
 import { SectionHeader, FormField, Accordion } from "@/app/components/common";
@@ -10,7 +12,7 @@ import {
   Download, Settings, Layers, Package, AppWindow, MessageSquare, LineChart, 
   Cpu, Truck, Store, CreditCard, Monitor, Wrench, Database, Share2, 
   CheckCircle2, Check, Mail, MessageCircle, Globe, ArrowRight, Target, 
-  MapPin
+  MapPin, Phone
 } from "lucide-react";
 
 const PlatformPage = () => {
@@ -337,7 +339,7 @@ const PlatformPage = () => {
                 <div className="relative bg-black rounded-[48px] p-3 shadow-2xl">
                   <div className="bg-white rounded-[36px] overflow-hidden">
                     <img 
-                      src="figma:asset/f104ab574b73d7c46d18a3162e446580eab8f787.png"
+                      src={image_f982484599ed1043231bee3b3abe67f11090d606}
                       alt="Smart Marketing Demo - Ozon Banking App"
                       className="w-full h-auto block"
                     />
@@ -345,9 +347,7 @@ const PlatformPage = () => {
                 </div>
                 
                 {/* Decorative elements around phone */}
-                <div className="absolute -top-4 -right-4 w-20 h-20 bg-gradient-to-br from-green-400 to-lime-300 rounded-2xl flex items-center justify-center transform rotate-12 shadow-xl">
-                  <ArrowRight className="text-white" size={32} />
-                </div>
+                
               </div>
             </div>
           </div>
@@ -359,7 +359,7 @@ const PlatformPage = () => {
                 <div className="relative bg-black rounded-[48px] p-3 shadow-2xl">
                   <div className="bg-gradient-to-br from-purple-400 via-pink-300 to-blue-300 rounded-[36px] overflow-hidden">
                     <img 
-                      src="figma:asset/092f98caae7df4a50b359c84e305c8cfe52da9e3.png" 
+                      src={image_e6c445e8533184e80595c45878ed05a3b5716af1} 
                       alt="App Installation Demo"
                       className="w-full h-auto"
                     />
@@ -702,73 +702,25 @@ Content-Type: application/json
                 <ContactInfo 
                   icon={Mail}
                   title={t('contacts.email')}
-                  text="sales@7tech.mdm"
+                  text="info@sm-mdm.tech"
                 />
                 <ContactInfo 
                   icon={MessageCircle}
                   title={t('contacts.messengers')}
-                  text="@seven_tech_mdm (Telegram)"
+                  text="@MdmSupportBot (Telegram)"
                 />
                 <ContactInfo 
-                  icon={Globe}
-                  title={t('contacts.regions')}
-                  text={t('contacts.regionsText')}
+                  icon={Phone}
+                  title={t('contacts.phone')}
+                  text="+998508708735"
                 />
               </div>
             </div>
 
             {/* Form */}
             <Card className="p-10 shadow-xl">
-              <h3 className="text-2xl font-bold mb-8">{t('contacts.formTitle')}</h3>
-              <form className="space-y-6" onSubmit={handleSubmit}>
-                <div className="grid sm:grid-cols-2 gap-6">
-                  <FormField 
-                    label={t('contacts.form.name')}
-                    placeholder={t('contacts.form.namePlaceholder')}
-                    value={formData.name}
-                    onChange={(e) => handleInputChange("name", e.target.value)}
-                  />
-                  <FormField 
-                    label={t('contacts.form.company')}
-                    placeholder={t('contacts.form.companyPlaceholder')}
-                    value={formData.company}
-                    onChange={(e) => handleInputChange("company", e.target.value)}
-                  />
-                </div>
-                <div className="grid sm:grid-cols-2 gap-6">
-                  <FormField 
-                    label={t('contacts.form.email')}
-                    type="email" 
-                    placeholder={t('contacts.form.emailPlaceholder')}
-                    value={formData.email}
-                    onChange={(e) => handleInputChange("email", e.target.value)}
-                  />
-                  <FormField 
-                    label={t('contacts.form.phone')}
-                    placeholder={t('contacts.form.phonePlaceholder')}
-                    value={formData.phone}
-                    onChange={(e) => handleInputChange("phone", e.target.value)}
-                  />
-                </div>
-                <FormField 
-                  label={t('contacts.form.message')}
-                  textarea 
-                  placeholder={t('contacts.form.messagePlaceholder')}
-                  value={formData.message}
-                  onChange={(e) => handleInputChange("message", e.target.value)}
-                />
-                <Button 
-                  size="lg" 
-                  className="w-full" 
-                  type="submit"
-                  disabled={!isFormValid()}
-                >
-                  {t('contacts.form.submit')}
-                </Button>
-                <p className="text-center text-xs text-muted-foreground">
-                  {t('contacts.form.privacy')}
-                </p>
-              </form>
+              
+              
             </Card>
           </div>
         </div>

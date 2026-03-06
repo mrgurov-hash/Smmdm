@@ -249,8 +249,7 @@ export const uz = {
     contactUs: "Biz bilan bog'lanish",
     email: "Email",
     messengers: "Messenjerlar",
-    regions: "Ishtirok mintaqalari",
-    regionsText: "Qozog'iston, O'zbekiston, BAA",
+    phone: "Telefon",
     formTitle: "So'rov yuborish",
     form: {
       name: "Ismingiz",

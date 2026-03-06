@@ -97,30 +97,6 @@ export const FormField = ({
     : { defaultValue: value || "" };
 
   return (
-    <div className="space-y-2">
-      <label className="text-sm font-semibold text-foreground">{label}</label>
-      {textarea ? (
-        <textarea
-          className="w-full min-h-[120px] p-3 rounded-xl border border-border bg-input-background focus:outline-none focus:ring-2 focus:ring-primary/50 transition-all"
-          placeholder={placeholder}
-          {...inputProps}
-        />
-      ) : type === "select" ? (
-        <select 
-          {...selectProps}
-          className="w-full h-11 px-3 rounded-xl border border-border bg-input-background focus:outline-none focus:ring-2 focus:ring-primary/50 transition-all appearance-none cursor-pointer"
-        >
-          <option value="" disabled>{placeholder}</option>
-          {options?.map(opt => <option key={opt} value={opt}>{opt}</option>)}
-        </select>
-      ) : (
-        <input
-          type={type}
-          className="w-full h-11 px-3 rounded-xl border border-border bg-input-background focus:outline-none focus:ring-2 focus:ring-primary/50 transition-all"
-          placeholder={placeholder}
-          {...inputProps}
-        />
-      )}
-    </div>
+    null
   );
 };

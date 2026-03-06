@@ -249,8 +249,7 @@ export const en = {
     contactUs: "Contact us",
     email: "Email",
     messengers: "Messengers",
-    regions: "Regions of presence",
-    regionsText: "Kazakhstan, Uzbekistan, UAE",
+    phone: "Phone",
     formTitle: "Submit request",
     form: {
       name: "Your name",
