@@ -1,6 +1,6 @@
-import image_e6c445e8533184e80595c45878ed05a3b5716af1 from 'figma:asset/e6c445e8533184e80595c45878ed05a3b5716af1.png'
-import image_f982484599ed1043231bee3b3abe67f11090d606 from 'figma:asset/f982484599ed1043231bee3b3abe67f11090d606.png'
-import { useState } from "react";
+import image_e6c445e8533184e80595c45878ed05a3b5716af1 from "@/assets/e6c445e8533184e80595c45878ed05a3b5716af1.png";
+import image_f982484599ed1043231bee3b3abe67f11090d606 from "@/assets/f982484599ed1043231bee3b3abe67f11090d606.png";
+import { useState, useEffect } from "react";
 import { Button, Card, Badge, IconLabel } from "@/app/components/ui";
 import { SectionHeader, FormField, Accordion } from "@/app/components/common";
 import { cn } from "@/lib/utils";
@@ -719,14 +719,33 @@ Content-Type: application/json
 
             {/* Form */}
             <Card className="p-10 shadow-xl">
-              
-              
+              <BitrixInlineForm />
             </Card>
           </div>
         </div>
       </section>
     </div>
   );
+};
+
+const BitrixInlineForm = () => {
+  useEffect(() => {
+    const container = document.getElementById("bitrix-inline-form");
+    if (!container) return;
+
+    if (container.getAttribute("data-b24-loaded") === "true") return;
+    container.setAttribute("data-b24-loaded", "true");
+
+    const script = document.createElement("script");
+    script.setAttribute("data-b24-form", "inline/5/7ta2rr");
+    script.setAttribute("data-skip-moving", "true");
+    script.innerHTML =
+      "(function(w,d,u){var s=d.createElement('script');s.async=true;s.src=u+'?'+(Date.now()/180000|0);var h=d.getElementsByTagName('script')[0];h.parentNode.insertBefore(s,h);})(window,document,'https://cdn-ru.bitrix24.ru/b32926530/crm/form/loader_5.js');";
+
+    container.appendChild(script);
+  }, []);
+
+  return <div id="bitrix-inline-form" />;
 };
 
 const CapabilityCard = ({ icon: Icon, title, items }: { icon: any; title: string; items: string[] }) => (
