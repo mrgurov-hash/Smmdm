@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <!-- Homepage - Russian (default) -->
+  <url>
+    <loc>https://www.sm-mdm.tech/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.sm-mdm.tech/?lang=ru"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.sm-mdm.tech/?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="uz" href="https://www.sm-mdm.tech/?lang=uz"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sm-mdm.tech/"/>
+    <lastmod>2026-03-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <!-- Platform Section -->
+  <url>
+    <loc>https://www.sm-mdm.tech/#platform</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.sm-mdm.tech/?lang=ru#platform"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.sm-mdm.tech/?lang=en#platform"/>
+    <xhtml:link rel="alternate" hreflang="uz" href="https://www.sm-mdm.tech/?lang=uz#platform"/>
+    <lastmod>2026-03-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  
+  <!-- Solutions Section -->
+  <url>
+    <loc>https://www.sm-mdm.tech/#solutions</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.sm-mdm.tech/?lang=ru#solutions"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.sm-mdm.tech/?lang=en#solutions"/>
+    <xhtml:link rel="alternate" hreflang="uz" href="https://www.sm-mdm.tech/?lang=uz#solutions"/>
+    <lastmod>2026-03-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  
+  <!-- Smart Marketing Section -->
+  <url>
+    <loc>https://www.sm-mdm.tech/#smart-marketing</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.sm-mdm.tech/?lang=ru#smart-marketing"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.sm-mdm.tech/?lang=en#smart-marketing"/>
+    <xhtml:link rel="alternate" hreflang="uz" href="https://www.sm-mdm.tech/?lang=uz#smart-marketing"/>
+    <lastmod>2026-03-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <!-- Integrations Section -->
+  <url>
+    <loc>https://www.sm-mdm.tech/#integrations</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.sm-mdm.tech/?lang=ru#integrations"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.sm-mdm.tech/?lang=en#integrations"/>
+    <xhtml:link rel="alternate" hreflang="uz" href="https://www.sm-mdm.tech/?lang=uz#integrations"/>
+    <lastmod>2026-03-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <!-- Pricing Section -->
+  <url>
+    <loc>https://www.sm-mdm.tech/#pricing</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.sm-mdm.tech/?lang=ru#pricing"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.sm-mdm.tech/?lang=en#pricing"/>
+    <xhtml:link rel="alternate" hreflang="uz" href="https://www.sm-mdm.tech/?lang=uz#pricing"/>
+    <lastmod>2026-03-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <!-- Contacts Section -->
+  <url>
+    <loc>https://www.sm-mdm.tech/#contacts</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.sm-mdm.tech/?lang=ru#contacts"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.sm-mdm.tech/?lang=en#contacts"/>
+    <xhtml:link rel="alternate" hreflang="uz" href="https://www.sm-mdm.tech/?lang=uz#contacts"/>
+    <lastmod>2026-03-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+</urlset>
